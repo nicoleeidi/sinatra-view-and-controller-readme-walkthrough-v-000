@@ -12,6 +12,7 @@ class App < Sinatra::Base
   end
 
   get '/friends' do
+    @friends
     # Write your code here!
 
   end
